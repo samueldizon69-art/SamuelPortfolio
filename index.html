@@ -1,0 +1,330 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samuel Dizon | Personal Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <video id="backgroundVideo" class="background-video" autoplay muted loop playsinline>
+        <source src="assets/images/clip.mp4" type="video/mp4">
+        Your browser does not support video playback.
+    </video>
+
+    <header class="navbar">
+        <h2 class="logo">SAMUEL<span>.</span></h2>
+
+        <div class="navbar-right">
+            <button id="soundButton" class="sound-button" type="button">SOUND OFF</button>
+            <p class="status"><span></span> PLAYER ONLINE</p>
+        </div>
+    </header>
+
+    <main id="home" class="hero">
+        <div class="hero-content">
+            <p class="subtitle">PERSONAL PORTFOLIO / 2026</p>
+            <h1>WELCOME TO<br>MY WORLD.</h1>
+            <h3>PLAYER: SAMUEL DIZON</h3>
+            <p class="description">IT STUDENT | ASPIRING DEVELOPER | PC BUILDING ENTHUSIAST</p>
+            <button id="playButton" class="play-button">▶ PLAY</button>
+        </div>
+    </main>
+
+    <section id="introPanel" class="intro-panel">
+        <button id="closeButton" class="close-button">✕ CLOSE</button>
+
+        <div id="menuView" class="menu-view">
+            <p class="subtitle">PLAYER MENU</p>
+            <h2>SELECT A SECTION</h2>
+
+            <div class="menu-options">
+                <button class="menu-option" data-section="about">01 <span>ABOUT ME</span><b>›</b></button>
+                <button class="menu-option" data-section="skills">02 <span>SKILLS</span><b>›</b></button>
+                <button class="menu-option" data-section="projects">03 <span>PROJECTS</span><b>›</b></button>
+                <button class="menu-option" data-section="education">04 <span>EDUCATION</span><b>›</b></button>
+                <button class="menu-option" data-section="achievements">05 <span>ACHIEVEMENTS</span><b>›</b></button>
+                <button class="menu-option" data-section="contact">06 <span>CONTACT</span><b>›</b></button>
+            </div>
+        </div>
+
+        <div id="aboutView" class="detail-view hidden">
+            <button class="back-button">← BACK TO MENU</button>
+            <p class="subtitle">PLAYER PROFILE</p>
+            <h2>ABOUT ME</h2>
+
+            <div class="profile-image">
+                <img src="assets/images/images1ss.jpg" alt="Samuel Dizon">
+            </div>
+
+            <h3 class="profile-name">SAMUEL DIZON</h3>
+            <p class="detail-description">
+                Welcome! I'm Samuel Dizon, an aspiring IT professional
+                who enjoys coding, PC building, computer hardware,
+                and exploring new technologies.
+            </p>
+            <p class="detail-description">
+                I'm always interested in learning new things, improving
+                my skills, and taking on new challenges in technology.
+            </p>
+        </div>
+
+        <div id="skillsView" class="detail-view hidden">
+            <button class="back-button">← BACK TO MENU</button>
+            <p class="subtitle">PLAYER ABILITIES</p>
+            <h2>MY SKILLS</h2>
+            <p class="section-description">Technologies and areas I'm learning and working with.</p>
+
+            <div class="skills-grid">
+                <article class="skill-card">
+                    <div class="skill-icon html-icon">5</div>
+                    <div><h3>Editing</h3><p>Editing, like vlog edits of others</p></div>
+                </article>
+
+                <article class="skill-card">
+                    <div class="skill-icon css-icon">3</div>
+                    <div><h3>Pc structure</h3><p>Styling and designing new personal computer.</p></div>
+                </article>
+
+                <article class="skill-card">
+                    <div class="skill-icon python-icon">Py</div>
+                    <div><h3>Coding</h3><p>Building a website since grade 11</p></div>
+                </article>
+
+                <article class="skill-card">
+                    <div class="skill-icon php-icon">PHP</div>
+                    <div><h3>Gaming</h3><p>Playing different games that leads me to make
+                        this kind of portfolio.</p></div>
+                </article>
+
+                <article class="skill-card">
+                    <div class="skill-icon mysql-icon">DB</div>
+                    <div><h3>Problem Solving</h3><p>Working with multiple problems during OJT and
+                        awarded with certificate that indicates on how good I am on solving a problem.</p></div>
+                </article>
+
+                <article class="skill-card">
+                    <div class="skill-icon pc-icon">PC</div>
+                    <div><h3>PC Hardware</h3><p>Understanding computer components.</p></div>
+                </article>
+            </div>
+
+            <div class="featured-skill">
+                <div class="pc-visual">⚙</div>
+                <div>
+                    <h3>PC BUILDING</h3>
+                    <p>Interested in assembling, upgrading, and understanding computers.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="projectsView" class="detail-view hidden">
+            <button class="back-button">← BACK TO MENU</button>
+            <p class="subtitle">HANDS-ON EXPERIENCE</p>
+            <h2>PC HARDWARE GALLERY</h2>
+            <p class="section-description">
+                A collection of my photos and videos documenting my experience with PC hardware, technology, and small business activities.
+            </p>
+
+            <div class="project-gallery">
+
+                <article class="project-card">
+                    <img src="assets/images/pcwork1.jpg" alt="PC hardware work photo 1">
+                    <div class="project-info">
+                        <h3>PC HARDWARE WORK</h3>
+                        <p>A glimpse of my hands-on experience with computer hardware.</p>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <img src="assets/images/pcwork2.jpg" alt="PC hardware work photo 2">
+                    <div class="project-info">
+                        <h3>COMPUTER COMPONENTS</h3>
+                        <p>Working with and learning about different computer components.</p>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <img src="assets/images/pcwork3.jpg" alt="PC hardware work photo 3">
+                    <div class="project-info">
+                        <h3>HANDS-ON EXPERIENCE</h3>
+                        <p>Documenting my experience and developing practical knowledge in PC hardware.</p>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <img src="assets/images/cp1.jpg" alt="Small business activity">
+                    <div class="project-info">
+                        <h3>SMALL BUSINESS JOURNEY</h3>
+                        <p>Exploring business opportunities with a friend while gaining experience in handling technology-related items.</p>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <img src="assets/images/cp2.jpg" alt="Technology exploration">
+                    <div class="project-info">
+                        <h3>EXPLORING TECHNOLOGY</h3>
+                        <p>Developing my curiosity about different technologies and discovering how computer components work.</p>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <img src="assets/images/cp3.jpg" alt="Computer hardware exploration">
+                    <div class="project-info">
+                        <h3>Cellphone gems</h3>
+                        <p>Learning more about cellphones hidden gems..</p>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <img src="assets/images/cp4.jpg" alt="Technology and business experience">
+                    <div class="project-info">
+                        <h3>BUSINESS EXPERIENCE</h3>
+                        <p>Gaining practical experience through our small business while improving my knowledge of technology.</p>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <img src="assets/images/cp5.jpg" alt="Learning about computer components">
+                    <div class="project-info">
+                        <h3>LEARNING THROUGH EXPERIENCE</h3>
+                        <p>Discovering new things about computer parts and expanding my understanding beyond the classroom.</p>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <img src="assets/images/cp6.jpg" alt="Personal technology journey">
+                    <div class="project-info">
+                        <h3>MY TECHNOLOGY JOURNEY</h3>
+                        <p>Every experience gives me an opportunity to learn, explore, and improve my knowledge in the IT field.</p>
+                    </div>
+                </article>
+
+                <article class="project-card video-card">
+                    <video controls preload="metadata">
+                        <source src="assets/images/vid1.mp4" type="video/mp4">
+                        Your browser does not support video playback.
+                    </video>
+                    <div class="project-info">
+                        <h3>PC HARDWARE VIDEO</h3>
+                        <p>A video recording of me and my homeboy having fun while creating an advertisement.</p>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+
+        <div id="educationView" class="detail-view hidden">
+            <button class="back-button">← BACK TO MENU</button>
+            <p class="subtitle">PLAYER BACKGROUND</p>
+            <h2>EDUCATION</h2>
+
+            <article class="content-card">
+                <span>2013 – 2019</span>
+                <h3>RONDINA SOLEDAD CHRISTIAN SCHOOL</h3>
+            </article>
+
+            <article class="content-card">
+                <span>2019 – 2023</span>
+                <h3>ANTIPOLO NATIONAL HIGH SCHOOL</h3>
+            </article>
+
+            <article class="content-card">
+                <span>2023 – 2025</span>
+                <h3>DEE HWA LIONG ACADEMY</h3>
+            </article>
+
+            <article class="content-card">
+                <span>CURRENT STUDIES</span>
+                <h3>BS INFORMATION TECHNOLOGY</h3>
+                <p>ICCT Colleges</p>
+            </article>
+        </div>
+
+        <div id="achievementsView" class="detail-view hidden">
+            <button class="back-button">← BACK TO MENU</button>
+            <p class="subtitle">PLAYER MILESTONES</p>
+            <h2>ACHIEVEMENTS</h2>
+
+            <article class="content-card">
+                <h3>POSITIVE FEEDBACK</h3>
+                <p>Received positive feedback during senior high school for coding and editing-related work.</p>
+            </article>
+
+            <article class="content-card">
+                <h3>HANDS-ON EXPERIENCE</h3>
+                <p>Gained exposure to computer parts and hardware through OJT experience.</p>
+            </article>
+
+            <article class="content-card">
+                <h3>CONTINUOUS LEARNING</h3>
+                <p>Continuing to develop skills in programming, web development, and computer hardware.</p>
+            </article>
+
+            <article class="content-card">
+                <h3>SPORTS</h3>
+                <p>Received a medal on badminton sports and winning 2nd place on sportfest</p>
+            </article>
+
+            <article class="content-card">
+                <h3>Money Journey</h3>
+                <p>Have a little business with my friend called scrapboard, and earning 4k per day as minimum.</p>
+            </article>
+        </div>
+
+        <div id="contactView" class="detail-view hidden">
+            <button class="back-button">← BACK TO MENU</button>
+            <p class="subtitle">PLAYER CONNECTION</p>
+            <h2>CONTACT ME</h2>
+
+            <article class="content-card">
+                <span>EMAIL ADDRESS</span>
+                <h3>samueldizon82@gmail.com</h3>
+            </article>
+
+            <article class="content-card">
+                <span>LOCATION</span>
+                <h3>ANTIPOLO CITY, PHILIPPINES</h3>
+            </article>
+
+            <a class="email-button" href="mailto:samueldizon82@gmail.com">✉ SEND ME AN EMAIL</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>© 2026 SAMUEL DIZON. ALL RIGHTS RESERVED.</p>
+        <p>DESIGNED & DEVELOPED BY SAMUEL.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+    <script>
+        const backgroundVideo = document.getElementById("backgroundVideo");
+        const soundButton = document.getElementById("soundButton");
+
+        backgroundVideo.volume = 0.5;
+
+        soundButton.addEventListener("click", async function () {
+            if (backgroundVideo.muted) {
+                backgroundVideo.muted = false;
+
+                try {
+                    await backgroundVideo.play();
+                    soundButton.textContent = "SOUND ON";
+                } catch (error) {
+                    backgroundVideo.muted = true;
+                    soundButton.textContent = "SOUND OFF";
+                }
+            } else {
+                backgroundVideo.muted = true;
+                soundButton.textContent = "SOUND OFF";
+            }
+        });
+
+        backgroundVideo.play().catch(() => {});
+    </script>
+
+</body>
+</html>
